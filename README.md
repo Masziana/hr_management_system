@@ -23,6 +23,10 @@ The Human Resource Management System is a web-based software developed to assist
 5. Run the project on Apache Tomcat server
 6. Open browser and go to:  
    `http://localhost:8080/Project/login.jsp`
+   
+## 🌐 Live Demo (Optional)
+Click here to view live system : https://www.youtube.com/watch?v=BjZEPr8jnYc
+
 
 ## 🗂️ Technologies Used
 - Java Servlet & JSP
