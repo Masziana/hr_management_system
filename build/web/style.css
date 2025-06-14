@@ -1,0 +1,317 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 10 Jun 2025, 2:19:43 am
+    Author     : Masziana 
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f2f4f7;
+}
+
+.sidebar {
+    width: 220px;
+    background-color: #1f4e70;
+    color: white;
+    height: 100vh;
+    padding: 30px 20px;
+    position: fixed;
+    flex-shrink: 0;
+    top: 0;
+    left: 0;
+}
+
+.sidebar h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 14px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.sidebar a.active,
+.sidebar a:hover {
+    background-color: #2e6a91;
+}
+
+.content {
+    margin-left: 220px;
+    padding: 40px;
+    flex-grow: 1;
+    background-color: #f9fbfd;
+    min-height: 100vh;
+}
+
+.content h2 {
+    margin-bottom: 25px;
+    color: #1f4e70;
+    font-size: 28px;
+}
+
+.box-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.box {
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 200px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon {
+    font-size: 30px;
+}
+
+.green {
+    background-color: #ccf5cc;
+}
+
+.blue {
+    background-color: #cce5ff;
+}
+
+.red {
+    background-color: #ffcccc;
+}
+
+.label {
+    font-size: 14px;
+    color: #555;
+}
+
+.value {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+form.styled-form {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 600px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin: 0 auto;
+}
+form.styled-form button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #1f4e70;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+form label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
+}
+
+form input,
+form select {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+form button {
+    padding: 12px 20px;
+    background-color: #1f4e70;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #2e6a91;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 30px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #1f4e70;
+    color: white;
+}
+
+th, td {
+    padding: 14px 16px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    font-size: 15px;
+    vertical-align: top;
+}
+
+td {
+    word-break: break-word;
+}
+
+.apply-btn {
+    background-color: #1f4e70;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 990px;
+    
+      
+}
+
+.apply-btn:hover {
+    background-color: #0056b3;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.action-buttons form {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    width: auto;
+}
+
+.btn-update,
+.btn-delete {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    transition: background-color 0.3s;
+    color: white;
+}
+
+.btn-update {
+    background-color: #28a745;
+}
+
+.btn-update:hover {
+    background-color: #218838;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+}
+
+input[type="text"], input[type="date"] {
+    padding: 10px;
+    width:auto width;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #1f4e70;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+input[type="submit"]:hover {
+    background-color: #2e6a91;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 1024px) {
+    .content {
+        padding: 20px;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+}
+
+/* Debug style */
+.btn-add {
+    border: 3px dashed red !important;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+
+.content {
+    max-width: calc(100vw - 220px);
+    overflow-x: auto;
+}

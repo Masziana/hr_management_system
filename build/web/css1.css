@@ -1,0 +1,133 @@
+
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 10 Jun 2025, 2:19:43 am
+    Author     : Masziana 
+*/
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        display: flex;
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background-color: #f2f4f7;
+    }
+
+    .sidebar {
+        width: 220px;
+        background-color: #1f4e70;
+        color: white;
+        height: 100vh;
+        padding-top: 30px;
+        flex-shrink: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    .sidebar h3 {
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+
+    .sidebar a {
+        display: block;
+        padding: 14px 25px;
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    .sidebar a.active,
+    .sidebar a:hover {
+        background-color: #2e6a91;
+    }
+
+    .content {
+        margin-left: 220px;
+        padding: 40px;
+        flex-grow: 1;
+        background-color: #f2f4f7;
+        min-height: 100vh;
+    }
+
+    .content h2 {
+        margin-bottom: 25px;
+        color: #1f4e70;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: white;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    th, td {
+        padding: 14px 16px;
+        border-bottom: 1px solid #ddd;
+        text-align: left;
+        vertical-align: middle;
+    }
+
+    th {
+        background-color: #1f4e70;
+        color: white;
+    }
+
+    tr:hover {
+        background-color: #f1f1f1;
+    }
+
+    .btn-update, .btn-delete {
+        padding: 6px 12px;
+        border: none;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        font-size: 14px;
+        cursor: pointer;
+        margin-right: 5px;
+    }
+
+    .btn-update {
+        background-color: #28a745;
+    }
+
+    .btn-delete {
+        background-color: #dc3545;
+    }
+
+    input[type="text"], input[type="date"], select {
+        padding: 10px;
+        width: 300px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 15px;
+    }
+
+    input[type="submit"] {
+        padding: 10px 20px;
+        background-color: #1f4e70;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 15px;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #2e6a91;
+    }
+
+
+ 

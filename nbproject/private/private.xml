@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/web/View_Department.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/web/Edit_Employee.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/web/viewLeave.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/web/META-INF/context.xml</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/web/editProfileStaff.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/web/staffDashboard.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/web/editAttendance.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/web/Add_Department.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/web/sidebar.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/src/java/servlet/EditAttendanceServlet.java</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/web/Edit_Department.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/src/java/com/controller/EmployeeServlet.java</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/src/java/model/Attendance.java</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/web/dashboard.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/src/java/LeaveServlet.java</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/src/java/model/Employee.java</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/src/java/dao/LeaveDAO.java</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/web/addAttendance.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/web/editLeave.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/web/applyLeave.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/src/java/controller/DashboardDAO.java</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/web/forgotPasswordCheck.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/web/login.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/src/java/servlet/AddAttendanceServlet.java</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/src/java/com/controller/DepartmentServlet.java</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/src/java/servlet/UpdateAttendanceServlet.java</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/src/java/servlet/DeleteAttendanceServlet.java</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/web/index.html</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/web/MyProfileStaff.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/web/Add_Employee.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/web/View_Employees.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/src/java/dao/AttendanceDAO.java</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/src/java/dao/DepartmentDAO.java</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/web/staffAttendance.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/src/java/ClockInServlet.java</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/web/logout.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/src/java/UpdateProfileServlet.java</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/src/java/db/DBConnection.java</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/web/viewAttendance.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/src/java/com/util/DBConnection.java</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/web/Delete_Employee.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/src/java/dao/EmployeeDAO.java</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/web/forgotPassword.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/web/loginCheck.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/web/css1.css</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/web/style.css</file>
+            <file>file:/C:/Users/user/OneDrive/Desktop/UMT/sem4/Web/Project/Project/web/sidebarStaff.jsp</file>
+        </group>
+    </open-files>
+</project-private>
