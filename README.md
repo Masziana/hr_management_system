@@ -16,17 +16,13 @@ The Human Resource Management System is a web-based software developed to assist
 
 ## 🛠️ How to Run the Project Locally
 1. Clone this repo:  
-   `git clone https://github.com/yourusername/hr-management-system.git`
+ 'https://github.com/Masziana/hr_management_system.git'
 2. Open in NetBeans or Eclipse
 3. Import `hr_db.sql` to MySQL to create database and tables
 4. Edit `DBConnection.java` with your database username and password
 5. Run the project on Apache Tomcat server
 6. Open browser and go to:  
    `http://localhost:8080/Project/login.jsp`
-
-## 🌐 Live Demo (Optional)
-[Click here to view live system](https://hrsystem-demo.vercel.app)  
-
 
 ## 🗂️ Technologies Used
 - Java Servlet & JSP
